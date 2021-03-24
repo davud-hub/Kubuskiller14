@@ -1,0 +1,90 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    /* margin-top: 60px; */
+}
+
+.a-link {
+    color: #707070;
+    padding: 2px 23px !important;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.a-link:hover {
+    color: #707070;
+}
+
+.a-link.active {
+    background: #E0E0E0;
+    color: #707070;
+}
+
+.top-header .a-link {
+    padding: 2px 8px !important;
+    color: #00C6EA;
+}
+
+.top-header .a-link.active {
+    background: #00C6EA;
+    color: white;
+}
+
+.contain-box {
+    min-height: calc(100vh - 190px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.context span {
+    background: #EFEFEF;
+    color: #707070;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+
+.c-card {
+    border-radius: 8px;
+    border: 2px solid #707070;
+    width: 300px;
+    text-align: left;
+    color: #707070;
+    margin: 5px;
+}
+
+.c-card .c-header {
+    border-bottom: 1px solid #707070;
+    padding: 5px 10px;
+}
+
+.c-card .c-body {
+    padding: 15px;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.c-card .c-body::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+/* handle */
+.c-card .c-body::-webkit-scrollbar-thumb {
+    background: #707070;
+}
+
+/* Handle on hover */
+.c-card .c-body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
