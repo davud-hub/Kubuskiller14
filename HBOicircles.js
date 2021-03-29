@@ -66,26 +66,23 @@ function RenderPieChart(elementId, dataList) {
                     }
                 },
                 events: {
-                    // click function
+                    // click listener
                     
                     click: function (selector) {
                         
                         if (elementId == 'Architectuurlaag') {
-                            var laag = selector.point.name
+                            laag = selector.point.name
                             console.log('slice: ' + laag )
-                            if (laag != '' && taak != '') {
-                                // render id as 'laag' +  _ + 'taak'
-                                console.log('- selection made -   ' + laag + ': ' + taak)
-                            }
                         }
                         
                         if (elementId == 'Beroepsniveau') {
-                            var taak = selector.point.name
+                            taak = selector.point.name
                             console.log('slice: ' + taak )
-                            if (laag != '' && taak != '') {
-                                // render id as 'laag' +  _ + 'taak' to active or non active?
-                                console.log('- selection made -   ' + laag + ': ' + taak)
-                            }
+                        }
+
+                        if (laag != '' && taak != '') {
+                            // render id as 'laag' +  _ + 'taak' to
+                            console.log('- selection made -   ' + laag + ': ' + taak)
                         }
               
                         }
