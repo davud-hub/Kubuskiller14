@@ -71,7 +71,55 @@
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="beroepstaken" role="tabpanel" aria-labelledby="beroepstaken-tab">
             <!-- Dit is voor Sven en Stijn -->
-            
+            <div class="circles">
+                <div>
+                    <nav class="navbar">
+                        <div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+                        <!-- <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.arch === 0 && state.arc}">
+                                    <a class="nav-link" @click="arch(0)" href="#">Hardware-interfacing</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.arch === 1}">
+                                    <a class="nav-link" @click="arch(1)" href="#">Software</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.arch === 2}">
+                                    <a class="nav-link" @click="arch(2)" href="#">Infrastructuur</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.arch === 3}">
+                                    <a class="nav-link" @click="arch(3)" href="#">Organisatieprocessen</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.arch === 4}">
+                                    <a class="nav-link" @click="arch(4)" href="#">Gebruikersinteractie</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </nav>
+                </div>
+                <div>
+                    <nav class="navbar">
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.activity === 0 && state.act}">
+                                    <a class="nav-link" @click="activity(0)" href="#">Manage-control</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.activity === 1}">
+                                    <a class="nav-link" @click="activity(1)" href="#">Realiseren"</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.activity === 2}">
+                                    <a class="nav-link" @click="activity(2)" href="#">Ontwerpen</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.activity === 3}">
+                                    <a class="nav-link" @click="activity(3)" href="#">Adviseren</a>
+                                </li>
+                                <li class="nav-item" v-bind:class="{'nav-active' : state.activity === 4}">
+                                    <a class="nav-link" @click="activity(4)" href="#">Analyseren</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
             
         </div>
         <div class="tab-pane fade" id="beheersingsniveaus" role="tabpanel" aria-labelledby="beheersingsniveaus-tab">
