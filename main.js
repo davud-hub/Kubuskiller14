@@ -394,5 +394,4 @@ $().ready(function () {
     $('#profession-tab').html(translateData["navigationbar"]["profskill"][currentLang]);
     $('#zelfstandigheid_tab').html(translateData["bn"]["zelfstandigheid"][currentLang]);
     $('#complexiteit_tab').html(translateData["bn"]["complexiteit"][currentLang]);
-    $('#analyseren_tab').html(translateData["weels"]["analyseren"][currentLang]);
 });

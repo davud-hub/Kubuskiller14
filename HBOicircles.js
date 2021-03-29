@@ -5,6 +5,7 @@ const architectuurlagen = [
     ['Software', 1],
     ['Hardware Interfacing', 1]
 ]
+
 const beroepstaken = [
     ['Analyseren', 1],
     ['Adviseren', 1],
@@ -12,6 +13,13 @@ const beroepstaken = [
     ['Realiseren', 1],
     ['Manage and Control', 1]
 ]
+
+// start values circle
+var laag = '';
+var taak = '';
+
+
+// draw circles
 $(document).ready(function () {
     RenderPieChart('Architectuurlaag', architectuurlagen);
     RenderPieChart('Beroepsniveau', beroepstaken);
@@ -59,10 +67,28 @@ function RenderPieChart(elementId, dataList) {
                 },
                 events: {
                     // click function
+                    
                     click: function (selector) {
-                        console.log('slice selection from ' + elementId + ': ' + selector.point.name)
                         
-                    }
+                        if (elementId == 'Architectuurlaag') {
+                            var laag = selector.point.name
+                            console.log('slice: ' + laag )
+                            if (laag != '' && taak != '') {
+                                // render id as 'laag' +  _ + 'taak'
+                                console.log('- selection made -   ' + laag + ': ' + taak)
+                            }
+                        }
+                        
+                        if (elementId == 'Beroepsniveau') {
+                            var taak = selector.point.name
+                            console.log('slice: ' + taak )
+                            if (laag != '' && taak != '') {
+                                // render id as 'laag' +  _ + 'taak'
+                                console.log('- selection made -   ' + laag + ': ' + taak)
+                            }
+                        }
+              
+                        }
                 }
             }
         },
