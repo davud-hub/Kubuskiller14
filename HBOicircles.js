@@ -83,7 +83,7 @@ function RenderPieChart(elementId, dataList) {
                             var taak = selector.point.name
                             console.log('slice: ' + taak )
                             if (laag != '' && taak != '') {
-                                // render id as 'laag' +  _ + 'taak'
+                                // render id as 'laag' +  _ + 'taak' to active or non active?
                                 console.log('- selection made -   ' + laag + ': ' + taak)
                             }
                         }
