@@ -77,52 +77,44 @@ let translateData = {
                 {
                     "title":
                         {
-                            "nl": "Niveau 1",
-                            "en": ""
+                            "nl": "Niveau 1"
                         },
                     "context":
                         {
-                            "nl": "",
-                            "en": ""
+                            "nl": ""
                         }
                 },
             "2":
                 {
                     "title":
                         {
-                            "nl": "Niveau 2",
-                            "en": ""
+                            "nl": "Niveau 2"
                         },
                     "context":
                         {
-                            "nl": "",
-                            "en": ""
+                            "nl": ""
                         }
                 },
             "3":
                 {
                     "title":
                         {
-                            "nl": "Niveau 3",
-                            "en": ""
+                            "nl": "Niveau 3"
                         },
                     "context":
                         {
-                            "nl": "",
-                            "en": ""
+                            "nl": ""
                         }
                 },
             "4":
                 {
                     "title":
                         {
-                            "nl": "Niveau 4",
-                            "en": ""
+                            "nl": "Niveau 4"
                         },
                     "context":
                         {
-                            "nl": "",
-                            "en": ""
+                            "nl": ""
                         }
                 }
         },
@@ -130,13 +122,11 @@ let translateData = {
         {
             "zelfstandigheid":
                 {
-                    "nl": "Zelfstandigheid",
-                    "en": ""
+                    "nl": "Zelfstandigheid"
                 },
             "complexiteit":
                 {
-                    "nl": "Complexiteit",
-                    "en": ""
+                    "nl": "Complexiteit"
                 }
         }
 };
@@ -145,49 +135,11 @@ let cardData = {
         {
             "analyseren":
                 {
-                    "1":
-                        {
-                            "nl": "Identificeren van de kernelementen van een externe opdracht waarbij verduidelijking wordt gezocht bij opdrachtgever, gebruikers en deskundigen.\n\nInventariseren van klant- en gebruikersbehoeften en deze vertalen naar IT-oplossingen.\n\n Oriënteren op bestaande interactieve concepten, diensten en producten.",
-                            "en": ""
-                        },
-                    "2":
-                        {
-                            "nl": "Benchmarken van functionaliteit, user interaction en UX design ten behoeve van een opdracht die uitgevoerd wordt binnen een bedrijf.\n\nAnalyseren van kernwaarden opdrachtgever, product of dienst, user needs en hoe die tot uiting komen in product of dienst.\n\nEvalueren van de projectvoortgang vanuit het perspectief van de gebruiker.",
-                            "en": ""
-                        },
-                    "3":
-                        {
-                            "nl": "Analyseren van de gebruiker, gebruikersinteractie en -ervaring, zowel individueel (fysiek, psychologisch, persoonlijke karakteristieken) als in grotere maatschappelijke context (sociaal / cultureel / ethisch / technologisch).\n\nAnalyseren van actuele en state of the art interactieve technologieën.\n\nAnalyseren per iteratie van het effect van de eigen interventie op/in de UX.",
-                            "en": ""
-                        },
-                    "4":
-                        {
-                            "nl": "Analyseren van maatschappelijke, domein- en/of branche specifieke trends & kansen en hierover op strategisch niveau communiceren aan de key stakeholders.",
-                            "en": ""
-                        }
+                    "nl":"analyseren"
                 },
             "adviseren":
                 {
-                    "1":
-                        {
-                            "nl": "Adviseren over interactieontwerp passend bij opdracht, klant en gebruikersbehoeften en voorafgaande oriëntatie.\n\nAanbevelingen doen op basis van een gegeven usability-analyse voor het ontwerp van een interactief product, systeem of dienst.",
-                            "en": ""
-                        },
-                    "2":
-                        {
-                            "nl": "Geven van een goed gemotiveerd concreet advies over de te gebruiken interactieve technieken en/of interactieconcepten.\n\nVoorstellen doen over de realisatiekeuzes, zoals de te gebruiken technologieën, daarbij rekening houdend met gebruikers- en bedrijfscontext.\n\nAdviseren over de doelstellingen van de huidige en volgende iteraties.",
-                            "en": ""
-                        },
-                    "3":
-                        {
-                            "nl": "Vertalen van analyse naar strategische aanbevelingen (op korte, middellange en langere termijn) voor het ontwerpen of verbeteren of onderzoeken van een UX met inzet van interactieve middelen. Hierbij wordt ook een onderbouwd advies gedaan voor het meest geschikte ontwerpproces (bijvoorbeeld UCD).\n\nAdviseren over de UX-interventie(s) in de huidige en volgende iteraties.",
-                            "en": ""
-                        },
-                    "4":
-                        {
-                            "nl": "Extrapoleren van technologische en maatschappelijke trends en deze vertalen naar een advies voor het ontwerp en de strategische inzet van zinvolle en innovatieve interactieve diensten en producten. Dit advies beschrijft een visie op de gebruikerservaring en de relatie tussen gebruiker en product/dienst",
-                            "en": ""
-                        }
+                    "nl":"adviseren"
                 },
             "ontwerpen":
                 {
@@ -744,4 +696,5 @@ $().ready(function () {
     $('#profession-tab').html(translateData["navigationbar"]["profskill"][currentLang]);
     $('#zelfstandigheid_tab').html(translateData["bn"]["zelfstandigheid"][currentLang]);
     $('#complexiteit_tab').html(translateData["bn"]["complexiteit"][currentLang]);
+    $('#analyseren').html(translateData["gebruikersinteractie"]["analyseren"][currentLang]);
 });
