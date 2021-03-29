@@ -14,82 +14,6 @@ let translateData = {
             "en": ""
         }
     },
-    "weels": {
-        "manage-control": {
-            "nl": "Manage & Control",
-            "en": ""
-        },
-        "realiseren": {
-            "nl": "Realiseren",
-            "en": ""
-        },
-        "ontwerpen": {
-            "nl": "Ontwerpen",
-            "en": ""
-        },
-        "adviseren": {
-            "nl": "Adviseren",
-            "en": ""
-        },
-        "analyseren": {
-            "nl": "Analyseren",
-            "en": ""
-        },
-        "hardware-interfacing": {
-            "nl": "Hardware Interfacing",
-            "en": ""
-        },
-        "software": {
-            "nl": "Software",
-            "en": ""
-        },
-        "infrastructuur": {
-            "nl": "Infrastructuur",
-            "en": ""
-        },
-        "organisatieprocessen": {
-            "nl": "Organisatieprocessen",
-            "en": ""
-        },
-        "gebruikersinteractie": {
-            "nl": "",
-            "en": ""
-        }
-    },
-    "niveaus": {
-        "1": {
-            "title": {
-                "nl": "Niveau 1"
-            },
-            "context": {
-                "nl": ""
-            }
-        },
-        "2": {
-            "title": {
-                "nl": "Niveau 2"
-            },
-            "context": {
-                "nl": ""
-            }
-        },
-        "3": {
-            "title": {
-                "nl": "Niveau 3"
-            },
-            "context": {
-                "nl": ""
-            }
-        },
-        "4": {
-            "title": {
-                "nl": "Niveau 4"
-            },
-            "context": {
-                "nl": ""
-            }
-        }
-    },
     "bn": {
         "zelfstandigheid": {
             "nl": "Zelfstandigheid"
@@ -102,15 +26,36 @@ let translateData = {
 let cardData = {
     "gebruikersinteractie": {
         "analyseren": {
-            "nl": "analyseren"
+            "1": {
+                "nl": ""
+            },
+            "2": {
+                "nl": ""
+            },
+            "3": {
+                "nl": ""
+            },
+            "4": {
+                "nl": ""
+            }
         },
         "adviseren": {
-            "nl": "adviseren"
+            "1": {
+                "nl": ""
+            },
+            "2": {
+                "nl": ""
+            },
+            "3": {
+                "nl": ""
+            },
+            "4": {
+                "nl": ""
+            }
         },
         "ontwerpen": {
             "1": {
-                "nl": "",
-                "en": ""
+                "nl": ""
             },
             "2": {
                 "nl": "",
@@ -513,8 +458,8 @@ let cardData = {
         },
         "manage-control": {
             "1": {
-                "nl": "@@@@",
-                "en": "@@@2"
+                "nl": "",
+                "en": ""
             },
             "2": {
                 "nl": "",
