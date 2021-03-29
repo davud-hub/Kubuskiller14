@@ -61,6 +61,7 @@ function RenderPieChart(elementId, dataList) {
                     // click function
                     click: function (selector) {
                         console.log('slice selection from ' + elementId + ': ' + selector.point.name)
+                        
                     }
                 }
             }
