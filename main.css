@@ -34,7 +34,6 @@
 }
 
 .contain-box {
-    min-height: calc(100vh - 190px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +51,10 @@
     color: #707070;
     padding: 5px 30px;
     border-radius: 8px;
+}
+
+.tab-pane:not(.active) {
+    display: none;
 }
 
 .c-card {
