@@ -18,11 +18,10 @@ const beroepstaken = [
 var laag = '';
 var taak = '';
 
-
 // draw circles
 $(document).ready(function () {
-    RenderPieChart('Architectuurlaag', architectuurlagen, document);
     RenderPieChart('Beroepsniveau', beroepstaken, document);
+    RenderPieChart('Architectuurlaag', architectuurlagen, document);
 });
 
 
@@ -31,7 +30,7 @@ function RenderPieChart(elementId, dataList, document) {
     // https://api.highcharts.com/highcharts/
 
     Highcharts.setOptions({
-        colors: ['#fffff'],
+        colors: ['#2c3e50'],
     });
 
     new Highcharts.Chart({
@@ -40,7 +39,7 @@ function RenderPieChart(elementId, dataList, document) {
             renderTo: elementId
         },
         title: {
-            text: elementId
+            text: null
         },
         plotOptions: {
             pie: {
@@ -51,9 +50,10 @@ function RenderPieChart(elementId, dataList, document) {
                     duration: 500
                 },
                 dataLabels: {
+                    enabled: true,
                     padding: 5,
                     connectorPadding: 1,
-                    enabled: true,
+                    className: 'labels',
                     color: '#000000',
                     connectorColor: '#000000',
                     formatter: function () {
@@ -74,20 +74,22 @@ function RenderPieChart(elementId, dataList, document) {
                         if (elementId == 'Beroepsniveau') {
                             taak = selector.point.name
                         }
-
                         if (laag != '' && taak != '') {
-                            // render css 'laag' +  _ + 'taak' to main css 'combi' active 
-                            if(taak == 'Manage and Control') {
-                               taak = taak.slice(0,6) 
+                            // render css 'laag' + _ + 'taak' to main css 'combi' active 
+                            if (taak == 'Manage and Control') {
+                                taak = taak.slice(0, 6)
+                            }
+                            if (laag == 'Hardware Interfacing') {
+                                laag = laag.slice(0, 8)
                             }
                             console.log('selection made: ' + laag.toLowerCase() + ' & ' + taak.toLowerCase());
-                            
-                            var hideCards = document.getElementsByClassName('combi');
-                                hideCards.classLists.remove('active');
+
+                            // var hideCards = document.getElementsByClassName('combi');
+                            // hideCards.classLists.remove('active');
 
                             var activeCards = document.getElementById(laag.toLowerCase() + '_' + taak.toLowerCase());
-                                activeCards.classList.add('active');
-                            
+                            activeCards.classList.replace('combi', 'active');
+
                         }
 
                     }
