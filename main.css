@@ -53,9 +53,7 @@
     border-radius: 8px;
 }
 
-.tab-pane:not(.active) {
-    display: none;
-}
+
 
 .c-card {
     border-radius: 8px;
@@ -90,4 +88,12 @@
 /* Handle on hover */
 .c-card .c-body::-webkit-scrollbar-thumb:hover {
     background: #555555;
+}
+
+.tab-pane:not(.active) {
+    display: none;
+}
+
+.combi:not(.active) {
+    display: none;
 }

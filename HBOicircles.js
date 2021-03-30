@@ -21,12 +21,12 @@ var taak = '';
 
 // draw circles
 $(document).ready(function () {
-    RenderPieChart('Architectuurlaag', architectuurlagen);
-    RenderPieChart('Beroepsniveau', beroepstaken);
+    RenderPieChart('Architectuurlaag', architectuurlagen, document);
+    RenderPieChart('Beroepsniveau', beroepstaken, document);
 });
 
 
-function RenderPieChart(elementId, dataList) {
+function RenderPieChart(elementId, dataList, document) {
     // construct circle with highcharts -> documentation: 
     // https://api.highcharts.com/highcharts/
 
@@ -76,8 +76,18 @@ function RenderPieChart(elementId, dataList) {
                         }
 
                         if (laag != '' && taak != '') {
-                            // render id as 'laag' +  _ + 'taak' to
-                            console.log('- selection made -   ' + laag + ': ' + taak)
+                            // render css 'laag' +  _ + 'taak' to main css 'combi' active 
+                            if(taak == 'Manage and Control') {
+                               taak = taak.slice(0,6) 
+                            }
+                            console.log('selection made: ' + laag.toLowerCase() + ' & ' + taak.toLowerCase());
+                            
+                            var hideCards = document.getElementsByClassName('combi');
+                                hideCards.classLists.remove('active');
+
+                            var activeCards = document.getElementById(laag.toLowerCase() + '_' + taak.toLowerCase());
+                                activeCards.classList.add('active');
+                            
                         }
 
                     }
