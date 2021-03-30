@@ -84,11 +84,10 @@ function RenderPieChart(elementId, dataList, document) {
                             }
                             console.log('selection made: ' + laag.toLowerCase() + ' & ' + taak.toLowerCase());
 
-                            // var hideCards = document.getElementsByClassName('combi');
-                            // hideCards.classLists.remove('active');
-
+                            $('.combi').removeClass("active");
+                            
                             var activeCards = document.getElementById(laag.toLowerCase() + '_' + taak.toLowerCase());
-                            activeCards.classList.replace('combi', 'active');
+                            activeCards.classList.add('active');
 
                         }
 
