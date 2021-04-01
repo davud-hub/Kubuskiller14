@@ -30,7 +30,7 @@ function RenderPieChart(elementId, dataList, document) {
     // https://api.highcharts.com/highcharts/
 
     Highcharts.setOptions({
-        colors: ['#2c3e50'],
+        colors: ['#2c3e50']
     });
 
     new Highcharts.Chart({
