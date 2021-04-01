@@ -98,7 +98,18 @@
     font-family: Arial;
 }
 
-.circles {
-    display: inline-block;
-    
+
+.circles2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .circles2 {    
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+
+    }
 }
