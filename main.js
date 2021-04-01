@@ -36,6 +36,9 @@ $().ready(function () {
     $('#complexiteit_tab').html(translateData["bn"]["complexiteit"][currentLang]);
 });
 
+
+// not implemented
+
 function fade(element) {
     var op = 1;  // initial opacity
     var timer = setInterval(function () {
