@@ -1,6 +1,6 @@
 const architectuurlagen = [
-    ['Gebruikersinteractie', 1],
-    ['Organisatieprocessen', 1],
+    ['Gebruikers Interactie', 1],
+    ['Organisatie Processen', 1],
     ['Infrastructuur', 1],
     ['Software', 1],
     ['Hardware Interfacing', 1]
@@ -78,6 +78,12 @@ function RenderPieChart(elementId, dataList, document) {
                             // render css 'laag' + _ + 'taak' to main css 'combi' active 
                             if (taak == 'Manage and Control') {
                                 taak = taak.slice(0, 6)
+                            }
+                            if (laag == 'Gebruikers Interactie') {
+                                laag = laag.slice(0, 10)
+                            }
+                            if (laag == 'Organisatie Processen') {
+                                laag = laag.slice(0, 11)
                             }
                             if (laag == 'Hardware Interfacing') {
                                 laag = laag.slice(0, 8)
