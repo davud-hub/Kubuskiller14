@@ -62,7 +62,7 @@ function RenderPieChart(elementId, dataList, document) {
                 },
                 states: {
                     inactive: {
-                        enabled: false
+                        enabled: true
                     }
                 },
                 events: {
