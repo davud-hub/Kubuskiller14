@@ -1,5 +1,47 @@
 {
-    "competenties": {
+    "profesionalskills": {
+        "Toekomstgericht organiseren": {
+            "Deelgebied": "Werkt onder algemene richtlijnen in een omgeving waar onvoorspelbare veranderingen plaatsvinden.",
+            "Ethiek": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten.",
+            "Managen": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties."
+            },
+        "Onderzoekend Probleemoplossen": {
+            "Probleemaanpak": "Het identiﬁceren van het probleem, richting van de oplossing bepalen en een passende aa npak kiezen.",
+            "Onderzoeken": "Gedurende het hele oplosproces nieuwsgierig zijn en vragen stellen vanuit verschillende perspectieven, deze vragen met een passende aanpak pragmatisch, kritisch en gebaseerd op bronnen beantwoorden.",
+            "Oplossen": "Het zowel methodisch als creatief problemen op kunnen lossen, het vinden v an alternatieven en het kritisch de eigen en andermans redeneerketen kunnen doorlopen."
+            },
+        "Persoonlijk Leiderschap": {
+            "Ondernemend zijn": "Attent zijn, kansen zien en deze grijpen, zichzelf en anderen kunnen motiveren, zichzelf dan wel een team kunnen proﬁleren, anderen meenemen in de eigen ontwikkeling, leiderschap tonen en verantwoordelijkheid nemen.",
+            "Persoonlijke ontwikkeling": "Een overwogen studiekeuze maken, het eigen leervermogen versterken, een leerbehoefte bij zichzelf kunnen onderkennen en daarop passend acteren, reﬂecteren, evalueren, actief feedback vragen en geven.",
+            "Persoonlijke Proﬁlering": "Onderzoeken wat voor type professional men op termijn zou willen zijn, welk beroepenveld en type functies men ambieert en hoe zich daarin van anderen in de branche te onderscheiden."
+            },
+        "Doelgericht Interacteren": {
+            "Partners": "Aandacht voor de diverse groepen samenwerkingspartners zoals stakeholders, belangengroepen, eigen teamleden.",
+            "Communiceren": "Aandacht voor wat men wil communiceren met welke impact, de daarbij meest geschikte vorm en de daadwerkelijke uitvoering hiervan.",
+            "Samenwerken": "Aandacht voor de eigen rol in de context van de ICT - opdracht, taken herkennen en oppakken, anderen aanspreken, verrijking zoeken en vertrouwen opbouwen in een interdisciplinaire en interculturele context."
+            },
+
+    
+
+
+    "beheersingniveaus": {
+        "zelfstandigheid": {
+            "taakgericht": "Werkt onder algemene richtlijnen in een omgeving waar onvoorspelbare veranderingen plaatsvinden.",
+            "probleemgericht": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten.",
+            "situatiegericht": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties.",
+            "professiegericht": "Coördineert en bestuurt. Stelt kwesties aan de orde met veel interacterende factoren."
+            },
+        "complextiteit": {
+            "taakgericht": "Gestructureerd voorspelbare context, probleem afgebakend, aanpak en oplossing bekend bij opdrachtgever.",
+            "probleemgericht": "Gestructureerd - onvoorspelbare context, probleem gegeven, keuze aanpak en oplossingsruimte beperkt.",
+            "situatiegericht": "Gestructureerd – onvoorspelbare context, vage problemen, aanpak en oplossingsruimte open.",
+            "professiegericht": "Ongestructureerde multidisciplinaire en/of specialistische context."
+            },
+
+
+
+
+    "beroepstaken": {
         "hardware_analyseren": {
             "n1": "Beschrijven van de architectuur van een computersysteem. <br> Beschrijven van de werking van actuatoren en sensoren en metingen hieraan verrichten. <br> Opstellen van (niet-)functionele eisen en acceptatiecriteria voor een computersysteem, bijv. een embedded of AI-systeem.",
             "n2": "In kaart brengen van signalerings- en regelingsaspecten van de omgeving van een computersysteem bijvoorbeeld in een sensornetwerk. <br> Methodisch specificeren van een computersysteem. <br> Uitvoeren van een protocolanalyse. <br> Opstellen van een acceptatietest voor een computersysteem.",
