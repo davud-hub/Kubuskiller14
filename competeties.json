@@ -61,94 +61,94 @@
             "n4": "" 
             },
         "infrastructuur_analyseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "infrastructuur_adviseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "infrastructuur_ontwerpen" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "infrastructuur_realiseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "infrastructuur_manage" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "organisatie_analyseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "organisatie_adviseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "organisatie_ontwerpen" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },   
         "organisatie_realiseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "organisatie_manage" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "gebruikers_analyseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
             "n4": "" 
             },
         "gebruikers_adviseren" : {
-            "n1":"",
-            "n2":"",
+            "n1": "",
+            "n2": "",
             "n3": "",
-            "n4": "" 
+            "n4": "Extrapoleren van technologische en maatschappelijke trends en deze vertalen naar een advies voor het ontwerp en de strategische inzet van zinvolle en innovatieve interactieve diensten en producten. Dit advies beschrijft een visie op de gebruikerservaring en de relatie tussen gebruiker en product/dienst." 
             },
         "gebruikers_ontwerpen" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
+            "n1": "Vertalen van adviezen in een eenvoudige gebruikersinteractie met een standaard prototyping-techniek. <br> Ontwerpen van een (usability)test waarmee essentiële interactieproblemen geïdentificeerd kunnen worden. <br> Toepassen en uitvoeren van een gebruikelijk interactieontwerpproces, zoals user centered design.",
+            "n2": "Vertalen van adviezen in een ontwerp van gedetailleerde gebruikersinteractie met verschillende prototyping-technieken. <br> Ontwerpen van een usabilitytest waarmee de doelstellingen van de iteratie geëvalueerd worden.",
+            "n3": "Vertalen van het advies naar een concreet en gedetailleerd UX-ontwerp, passend bij de projectfasering, hierbij gebruik makend van een adequaat gemotiveerd ontwerpproces. <br> Ontwerpen van een test waarmee de doelstellingen vanuit gebruikersperspectief geëvalueerd wordt.",
+            "n4": "Ontwerpen van user experience rekening houdend met langetermijnstrategie en organisatiedoelstellingen van de opdrachtgever. Hierbij wordt geanticipeerd op relevante maatschappelijke trends en technologische ontwikkelingen." 
             },
         "gebruikers_realiseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
+            "n1": "Realiseren en kwalitatief testen van eenvoudige interactieve producten of diensten op basis van een interactieontwerp waarbij gebruik wordt gemaakt van gangbare tools, design guidelines en/of huisstijl.",
+            "n2": "Realiseren van het interactieontwerp met verschillende tools en technieken. <br> Uitvoeren van de usabilitytest in het veld of in een lab. <br> Bewaken van het interactie-ontwerp bij het gerealiseerde interactieve product of dienst.",
+            "n3": "Realiseren en testen van de UX van een interactief product, prototype, systeem of dienst op basis van het ontwerp met gebruikmaking van bij de projectfasering passende tools en technieken. <br> Bewaken van aansluiting UX-ontwerp en gerealiseerde product in een onvoorspelbare context.",
+            "n4": "Realiseren van toekomst-bestendige producten, diensten of prototypes op de volgende aspecten: <br>- Innovatief UX design <br>- Innovatieve technieken en opkomende standaarden. <br>Validatie met key stakeholders van visie en strategie." 
             },    
         "gebruikers_manage" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
+            "n1": "Vastleggen van de belangrijkste beslissingen, resultaten en inzichten m.b.t. interactieontwerp in een iteratief proces.",
+            "n2": "Vastleggen van de vertrekpunten en opbrengsten m.b.t. gebruikersperspectief tussen de iteraties in een ontwerp- en ontwikkelproces, en hiermee en de verbinding tussen de iteraties inzichtelijk maken. <br> Gebruiken en correct toepassen van standaarden (design guidelines m.b.t. interactie ontwerp, protocollen en methoden) passend binnen bedrijfscontext.",
+            "n3": "Bewaken van de kernwaarden en UX van product/organisatie of dienst in iedere fase van het ontwikkel- en productieproces. <br> Communiceren met stakeholders en vastleggen van beslissingen gerelateerd aan kernwaarden en user experience design gedurende alle fases van het ontwikkelproces. <br> Verhogen van gebruikers-acceptatie middels documentatie, training en/of marketing en gemotiveerde keuze voor de juiste vorm hiervan.",
+            "n4": "Aansturen van een complex project vanuit UX-perspectief op strategisch niveau met inachtneming van korte en lange termijn, betrekken en overtuigen van stakeholders zowel formeel als informeel." 
             }
         }
 
