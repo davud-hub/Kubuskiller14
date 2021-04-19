@@ -1,28 +1,31 @@
 {
+
+
+
     "profesionalskills": {
         "Toekomstgericht organiseren": {
             "Deelgebied": "Werkt onder algemene richtlijnen in een omgeving waar onvoorspelbare veranderingen plaatsvinden.",
             "Ethiek": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten.",
             "Managen": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties."
-            },
+        },
         "Onderzoekend Probleemoplossen": {
             "Probleemaanpak": "Het identiﬁceren van het probleem, richting van de oplossing bepalen en een passende aa npak kiezen.",
             "Onderzoeken": "Gedurende het hele oplosproces nieuwsgierig zijn en vragen stellen vanuit verschillende perspectieven, deze vragen met een passende aanpak pragmatisch, kritisch en gebaseerd op bronnen beantwoorden.",
             "Oplossen": "Het zowel methodisch als creatief problemen op kunnen lossen, het vinden v an alternatieven en het kritisch de eigen en andermans redeneerketen kunnen doorlopen."
-            },
+        },
         "Persoonlijk Leiderschap": {
             "Ondernemend zijn": "Attent zijn, kansen zien en deze grijpen, zichzelf en anderen kunnen motiveren, zichzelf dan wel een team kunnen proﬁleren, anderen meenemen in de eigen ontwikkeling, leiderschap tonen en verantwoordelijkheid nemen.",
             "Persoonlijke ontwikkeling": "Een overwogen studiekeuze maken, het eigen leervermogen versterken, een leerbehoefte bij zichzelf kunnen onderkennen en daarop passend acteren, reﬂecteren, evalueren, actief feedback vragen en geven.",
             "Persoonlijke Proﬁlering": "Onderzoeken wat voor type professional men op termijn zou willen zijn, welk beroepenveld en type functies men ambieert en hoe zich daarin van anderen in de branche te onderscheiden."
-            },
+        },
         "Doelgericht Interacteren": {
             "Partners": "Aandacht voor de diverse groepen samenwerkingspartners zoals stakeholders, belangengroepen, eigen teamleden.",
             "Communiceren": "Aandacht voor wat men wil communiceren met welke impact, de daarbij meest geschikte vorm en de daadwerkelijke uitvoering hiervan.",
             "Samenwerken": "Aandacht voor de eigen rol in de context van de ICT - opdracht, taken herkennen en oppakken, anderen aanspreken, verrijking zoeken en vertrouwen opbouwen in een interdisciplinaire en interculturele context."
-            },
+        }
+    },
 
-    
-            
+
 
     "beheersingniveaus": {
         "zelfstandigheid": {
@@ -30,14 +33,14 @@
             "probleemgericht": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten.",
             "situatiegericht": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties.",
             "professiegericht": "Coördineert en bestuurt. Stelt kwesties aan de orde met veel interacterende factoren."
-            },
+        },
         "complextiteit": {
             "taakgericht": "Gestructureerd voorspelbare context, probleem afgebakend, aanpak en oplossing bekend bij opdrachtgever.",
             "probleemgericht": "Gestructureerd - onvoorspelbare context, probleem gegeven, keuze aanpak en oplossingsruimte beperkt.",
             "situatiegericht": "Gestructureerd – onvoorspelbare context, vage problemen, aanpak en oplossingsruimte open.",
             "professiegericht": "Ongestructureerde multidisciplinaire en/of specialistische context."
-            },
-
+        }
+    },
 
 
 
@@ -168,31 +171,29 @@
             "n3": "Analyseren van de gebruiker, gebruikersinteractie en -ervaring, zowel individueel (fysiek, psychologisch, persoonlijke karakteristieken) als in grotere maatschappelijke context (sociaal / cultureel / ethisch / technologisch). <br> Analyseren van actuele en state of the art interactieve technologieën. <br> Analyseren per iteratie van het effect van de eigen interventie op/in de UX.",
             "n4": "Analyseren van maatschappelijke, domein- en/of branche specifieke trends & kansen en hierover op strategisch niveau communiceren aan de key stakeholders."
         },
-        "gebruikers_adviseren" : {
+        "gebruikers_adviseren": {
             "n1": "Adviseren over interactieontwerp passend bij opdracht, klant en gebruikersbehoeften en voorafgaande oriëntatie. <br> Aanbevelingen doen op basis van een gegeven usability-analyse voor het ontwerp van een interactief product, systeem of dienst.",
             "n2": "Geven van een goed gemotiveerd concreet advies over de te gebruiken interactieve technieken en/of interactieconcepten. <br> Voorstellen doen over de realisatiekeuzes, zoals de te gebruiken technologieën, daarbij rekening houdend met gebruikers- en bedrijfscontext. <br> Adviseren over de doelstellingen van de huidige en volgende iteraties.",
             "n3": "Vertalen van analyse naar strategische aanbevelingen (op korte, middellange en langere termijn) voor het ontwerpen of verbeteren of onderzoeken van een UX met inzet van interactieve middelen. Hierbij wordt ook een onderbouwd advies gedaan voor het meest geschikte ontwerpproces (bijvoorbeeld UCD). <br> Adviseren over de UX-interventie(s) in de huidige en volgende iteraties.",
-            "n4": "Extrapoleren van technologische en maatschappelijke trends en deze vertalen naar een advies voor het ontwerp en de strategische inzet van zinvolle en innovatieve interactieve diensten en producten. Dit advies beschrijft een visie op de gebruikerservaring en de relatie tussen gebruiker en product/dienst." 
-            },
-        "gebruikers_ontwerpen" : {
+            "n4": "Extrapoleren van technologische en maatschappelijke trends en deze vertalen naar een advies voor het ontwerp en de strategische inzet van zinvolle en innovatieve interactieve diensten en producten. Dit advies beschrijft een visie op de gebruikerservaring en de relatie tussen gebruiker en product/dienst."
+        },
+        "gebruikers_ontwerpen": {
             "n1": "Vertalen van adviezen in een eenvoudige gebruikersinteractie met een standaard prototyping-techniek. <br> Ontwerpen van een (usability)test waarmee essentiële interactieproblemen geïdentificeerd kunnen worden. <br> Toepassen en uitvoeren van een gebruikelijk interactieontwerpproces, zoals user centered design.",
             "n2": "Vertalen van adviezen in een ontwerp van gedetailleerde gebruikersinteractie met verschillende prototyping-technieken. <br> Ontwerpen van een usabilitytest waarmee de doelstellingen van de iteratie geëvalueerd worden.",
             "n3": "Vertalen van het advies naar een concreet en gedetailleerd UX-ontwerp, passend bij de projectfasering, hierbij gebruik makend van een adequaat gemotiveerd ontwerpproces. <br> Ontwerpen van een test waarmee de doelstellingen vanuit gebruikersperspectief geëvalueerd wordt.",
-            "n4": "Ontwerpen van user experience rekening houdend met langetermijnstrategie en organisatiedoelstellingen van de opdrachtgever. Hierbij wordt geanticipeerd op relevante maatschappelijke trends en technologische ontwikkelingen." 
-            },
-        "gebruikers_realiseren" : {
+            "n4": "Ontwerpen van user experience rekening houdend met langetermijnstrategie en organisatiedoelstellingen van de opdrachtgever. Hierbij wordt geanticipeerd op relevante maatschappelijke trends en technologische ontwikkelingen."
+        },
+        "gebruikers_realiseren": {
             "n1": "Realiseren en kwalitatief testen van eenvoudige interactieve producten of diensten op basis van een interactieontwerp waarbij gebruik wordt gemaakt van gangbare tools, design guidelines en/of huisstijl.",
             "n2": "Realiseren van het interactieontwerp met verschillende tools en technieken. <br> Uitvoeren van de usabilitytest in het veld of in een lab. <br> Bewaken van het interactie-ontwerp bij het gerealiseerde interactieve product of dienst.",
             "n3": "Realiseren en testen van de UX van een interactief product, prototype, systeem of dienst op basis van het ontwerp met gebruikmaking van bij de projectfasering passende tools en technieken. <br> Bewaken van aansluiting UX-ontwerp en gerealiseerde product in een onvoorspelbare context.",
-            "n4": "Realiseren van toekomst-bestendige producten, diensten of prototypes op de volgende aspecten: <br>- Innovatief UX design <br>- Innovatieve technieken en opkomende standaarden. <br>Validatie met key stakeholders van visie en strategie." 
-            },    
-        "gebruikers_manage" : {
+            "n4": "Realiseren van toekomst-bestendige producten, diensten of prototypes op de volgende aspecten: <br>- Innovatief UX design <br>- Innovatieve technieken en opkomende standaarden. <br>Validatie met key stakeholders van visie en strategie."
+        },
+        "gebruikers_manage": {
             "n1": "Vastleggen van de belangrijkste beslissingen, resultaten en inzichten m.b.t. interactieontwerp in een iteratief proces.",
             "n2": "Vastleggen van de vertrekpunten en opbrengsten m.b.t. gebruikersperspectief tussen de iteraties in een ontwerp- en ontwikkelproces, en hiermee en de verbinding tussen de iteraties inzichtelijk maken. <br> Gebruiken en correct toepassen van standaarden (design guidelines m.b.t. interactie ontwerp, protocollen en methoden) passend binnen bedrijfscontext.",
             "n3": "Bewaken van de kernwaarden en UX van product/organisatie of dienst in iedere fase van het ontwikkel- en productieproces. <br> Communiceren met stakeholders en vastleggen van beslissingen gerelateerd aan kernwaarden en user experience design gedurende alle fases van het ontwikkelproces. <br> Verhogen van gebruikers-acceptatie middels documentatie, training en/of marketing en gemotiveerde keuze voor de juiste vorm hiervan.",
-            "n4": "Aansturen van een complex project vanuit UX-perspectief op strategisch niveau met inachtneming van korte en lange termijn, betrekken en overtuigen van stakeholders zowel formeel als informeel." 
-            }
+            "n4": "Aansturen van een complex project vanuit UX-perspectief op strategisch niveau met inachtneming van korte en lange termijn, betrekken en overtuigen van stakeholders zowel formeel als informeel."
         }
-    }
     }
 }
