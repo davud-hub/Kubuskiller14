@@ -1,135 +1,135 @@
-{ 
+{
     "competenties": {
-        "hardware_analyseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "hardware_adviseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "hardware_ontwerpen" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "hardware_realiseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "hardware_manage" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "software_analyseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "software_adviseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "software_ontwerpen" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "software_realiseren" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "software_manage" : {
-            "n1":"",
-            "n2":"",
-            "n3": "",
-            "n4": "" 
-            },
-        "infrastructuur_analyseren" : {
+        "hardware_analyseren": {
+            "n1": "Beschrijven van de architectuur van een computersysteem. <br> Beschrijven van de werking van actuatoren en sensoren en metingen hieraan verrichten. <br> Opstellen van (niet-)functionele eisen en acceptatiecriteria voor een computersysteem, bijv. een embedded of AI-systeem.",
+            "n2": "In kaart brengen van signalerings- en regelingsaspecten van de omgeving van een computersysteem bijvoorbeeld in een sensornetwerk. <br> Methodisch specificeren van een computersysteem. <br> Uitvoeren van een protocolanalyse. <br> Opstellen van een acceptatietest voor een computersysteem.",
+            "n3": "Specificeren van een gedistribueerd computersysteem inclusief timing, resourcegebruik en performance. <br> Beschrijven van security-aspecten van computersystemen die aan of via (openbare) netwerken gekoppeld zijn. <br> Opstellen van een acceptatietestplan en een integratietestplan.",
+            "n4": "Onderzoek doen naar emerging technologies voor toepassing in gedistribueerde systemen. <br> Onderzoek doen naar security aspecten binnen emerging technologies."
+        },
+        "hardware_adviseren": {
+            "n1": "Verifiëren en onderbouwen van een gegeven technisch advies. Verifiëren en beschrijven van de initiële architectuur en de functionaliteit van een gegeven systeemconfiguratie (microprocessor, geheugen of andere bouwstenen).",
+            "n2": "Uitbrengen van een technisch advies voor de architectuur van een computersysteem en de hardware- en software-componenten. <br> Adviseren over het koppelen van systemen",
+            "n3": "Uitbrengen van een technisch advies over een te realiseren (gedistribueerd) computersysteem, inclusief hardware- en software-componenten en koppelingen.",
+            "n4": "Uitbrengen van een technisch advies over de toepassing van emerging technologies om een gedistribueerde computersysteem te realiseren. <br> Adviseren over toekomstgerichte inrichting van gedistribueerde computersystemen. <br> Definiëren van visie op technologieroadmap en deze afstemmen met key stakeholders"
+        },
+        "hardware_ontwerpen": {
+            "n1": "Ontwerpen van een eenvoudig computersysteem, bijv. een embedded of industriële automatiseringssysteem, op basis van gegeven hardware.",
+            "n2": "Ontwerpen van een computersysteem methodisch o.b.v. requirements met zelfgekozen hardware- en softwarecomponenten. <br>- opstellen van een applicatie-driverontwerp opstellen. <br>- ontwerpen van een protocol.",
+            "n3": "Ontwerpen van een gedistribueerd computersysteem inclusief bepaling van actuatoren, sensoren, timing, resourcegebruik en performance",
+            "n4": "Ontwerpen van gedistribueerde computersystemen met gebruik van hardware synthese en/of artificial intelligence."
+        },
+        "hardware_realiseren": {
+            "n1": "Software schrijven voor een eenvoudig, gegeven computersysteem, voorzien van actuatoren en sensoren.",
+            "n2": "Inrichten van een eenvoudig computersysteem en via software de koppelingen met hardwarecomponenten realiseren. <br> Schrijven en testen van applicatiedriver-software. <br> Implementeren en testen van een protocol.",
+            "n3": "Realiseren van een compleet computersysteem inclusief netwerk, hardware en systeemsoftware. <br> Opstellen en uitvoeren van een acceptatieprocedure bijv. in een virtuele omgeving, inclusief aspecten als timing, resourcegebruik en performance.",
+            "n4": "Realiseren van een compleet computersysteem waarbij gebruik gemaakt wordt van hardware synthese (vhdl) of artificial intelligence."
+        },
+        "hardware_manage": {
+            "n1": "Inrichten van een ontwikkel- en testplatform middels co-design ten behoeve van hardware/software, inclusief tools",
+            "n2": "Beoordelen van een gegeven ontwikkelomgeving op kwaliteit en prestaties. <br> Inrichten van een beheer- en testomgeving voor een computersysteem.",
+            "n3": "Opzetten en gebruikmaken van: <br>- versiebeheer, <br>- releasemanagement, <br>- teamworkondersteuning, <br>- automated testing voor hard- en softwaresystemen.",
+            "n4": " Aansturen van co-design teams voor het beheren van het realisatieproces van de hardware, software en synthese, inclusief de ontwikkelomgeving."
+        },
+        "software_analyseren": {
+            "n1": "Verzamelen en valideren van functionele eisen voor een softwaresysteem met één belanghebbende volgens een standaardmethode. <br> Definiëren van acceptatiecriteria voor bovengenoemde functionele eisen.",
+            "n2": "Uitvoeren van een requirementsanalyse voor een softwaresysteem met verschillende belanghebbenden, rekening houdend met de kwaliteitseigenschappen waaronder security. <br> Uitvoeren van een analyse om functionaliteit, veiligheid, ontwerp, interfaces e.d. van een bestaand systeem of bestaande component te formuleren en te valideren. <br> Opstellen van een acceptatietest aan de hand van kwaliteits-eigenschappen",
+            "n3": "Uitvoeren van een requirementsanalyse voor een softwaresysteem met verschillende belanghebbenden in een context van bestaande systemen. <br> Definiëren van acceptatiecriteria aan de hand van kwaliteitseigenschappen en een uitgevoerde risicoanalyse met onder andere aandacht voor security aspecten.",
+            "n4": "Analyse uitvoeren voor complexe software-in-software systemen (system in systems), inclusief alle niet-functionele requirements, waaronder safety, security en privacy."
+        },
+        "software_adviseren": {
+            "n1": "Aanbevelingen doen over specifieke requirements van een softwaresysteem op grond van onderzoek naar bestaande, vergelijkbare systemen.     Aanbevelingen doen over specifieke requirements van een softwaresysteem op grond van onderzoek naar bestaande, vergelijkbare systemen.",
+            "n2": "Adviseren over aanschaf en selectie van software-componenten bij het ontwikkelen van een softwaresysteem waarbij het kostenaspect een rol kan spelen. <br> Adviseren over een onderdeel van een architectuur of een beperkt softwaresysteem. <br>Adviseren over het gebruik van prototypes bij het valideren van de eisen.",
+            "n3": "Adviseren met betrekking tot de keuze voor softwarearchitectuur of bestaande software frameworks, waarbij kostenaspecten en kwaliteitskenmerken zoals beschikbaarheid, performance, security en schaalbaarheid een rol spelen. <br> Adviseren over de aanpak bij het verwerken en raadplegen van grote hoeveelheden data met aandacht voor privacy. <br> Adviseren over de inrichting van een softwareontwikkelproces, waaronder het testproces.",
+            "n4": "Definiëren van een visie ten aanzien van toekomstige technologie en software-architectuur in afstemming met stakeholders"
+        },
+        "software_ontwerpen": {
+            "n1": "Maken van een ontwerp voor een softwaresysteem, inclusief database, met modelleertechnieken volgens een standaardmethode.",
+            "n2": "Opstellen van een ontwerp voor een softwaresysteem, rekening houdend met het gebruik van bestaande componenten en libraries. <br> Toepassen van ontwerp-kwaliteitscriteria, rekening houdend met securityaspecten en verschillende typen devices. <br> Maken van een ontwerp voor een systeem dat grote hoeveelheden data kan verwerken en raadplegen. <br> Vaststellen van de kwaliteit van het ontwerp, bijvoorbeeld door toetsing of prototyping, rekening houdend met de geformuleerde kwaliteitseigenschappen. <br> Opstellen van testontwerpen volgens een gegeven teststrategie.",
+            "n3": "Opstellen van een softwarearchitectuur voor een softwaresysteem, opgebouwd uit bestaande en nieuwe systemen, rekening houdend met meerdere belanghebbenden en kwaliteitskenmerken, waaronder security en schaalbaarheid. <br> Opstellen van teststrategie voor systeemtesten.",
+            "n4": "Ontwerpen van een systeem voor het oplossen van een generieke klasse van problemen. <br> Ontwerpen van een framework."
+        },
+        "software_realiseren": {
+            "n1": "Bouwen, testen en beschikbaar stellen van een eenvoudig softwaresysteem. Het opzetten, vullen en bevragen van een database maakt onderdeel uit van het softwaresysteem.",
+            "n2": "Bouwen en beschikbaar stellen van een softwaresysteem dat bestaat uit meerdere subsystemen, hierbij gebruikmakend van bestaande componenten. <br> Integreren van softwarecomponenten in een bestaand systeem, waarbij o.a. de integriteit, veiligheid en systeemprestaties bewaakt worden. <br> Uitvoeren van, monitoren van en rapporteren over unit-, integratie-, regressie-, en systeemtesten, met aandacht voor security-aspecten.",
+            "n3": "Bouwen en beschikbaar stellen van een schaalbaar softwaresysteem dat aansluit bij bestaande systemen, eventueel in de cloud, volgens de ontworpen architectuur met gebruik van bestaande frameworks. <br> Toepassen van testautomatisering bij het uitvoeren van testen.",
+            "n4": "Coderen van algoritmisch complexe problemen. <br> Bouwen van AI-gerelateerde software."
+        },
+        "software_manage": {
+            "n1": "Inrichten en gebruik maken van beheersysteem ter ondersteuning van softwareontwikkeling in teamverband.",
+            "n2": "Beheren en gebruiken van een ontwikkelstraat ter ondersteuning van softwareontwikkeling in teams, waardoor onder andere continuous integration tot de mogelijkheden behoort. <br> Toepassen van methoden en technieken om een software-ontwikkelproces te managen en de kwaliteit ervan te borgen.",
+            "n3": "Uitvoeren van configuratie-, change- en releasemanagement in afstemming met infrastructuur-management. <br> Inrichten van een ontwikkelstraat met geautomatiseerde build en test infrastructuur.",
+            "n4": "Ontwerpen en realiseren van een ontwikkelstraat met geautomatiseerde build en test infrastructuur."
+        },
+        "infrastructuur_analyseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "infrastructuur_adviseren" : {
+            "n4": ""
+        },
+        "infrastructuur_adviseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "infrastructuur_ontwerpen" : {
+            "n4": ""
+        },
+        "infrastructuur_ontwerpen": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "infrastructuur_realiseren" : {
+            "n4": ""
+        },
+        "infrastructuur_realiseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "infrastructuur_manage" : {
+            "n4": ""
+        },
+        "infrastructuur_manage": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "organisatie_analyseren" : {
+            "n4": ""
+        },
+        "organisatie_analyseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "organisatie_adviseren" : {
+            "n4": ""
+        },
+        "organisatie_adviseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "organisatie_ontwerpen" : {
+            "n4": ""
+        },
+        "organisatie_ontwerpen": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },   
-        "organisatie_realiseren" : {
+            "n4": ""
+        },
+        "organisatie_realiseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "organisatie_manage" : {
+            "n4": ""
+        },
+        "organisatie_manage": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
-        "gebruikers_analyseren" : {
+            "n4": ""
+        },
+        "gebruikers_analyseren": {
             "n1": "",
             "n2": "",
             "n3": "",
-            "n4": "" 
-            },
+            "n4": ""
+        },
         "gebruikers_adviseren" : {
             "n1": "",
-            "n2": "",
-            "n3": "",
+            "n2": "Geven van een goed gemotiveerd concreet advies over de te gebruiken interactieve technieken en/of interactieconcepten. <br> Voorstellen doen over de realisatiekeuzes, zoals de te gebruiken technologieën, daarbij rekening houdend met gebruikers- en bedrijfscontext. <br> Adviseren over de doelstellingen van de huidige en volgende iteraties.",
+            "n3": "Vertalen van analyse naar strategische aanbevelingen (op korte, middellange en langere termijn) voor het ontwerpen of verbeteren of onderzoeken van een UX met inzet van interactieve middelen. Hierbij wordt ook een onderbouwd advies gedaan voor het meest geschikte ontwerpproces (bijvoorbeeld UCD). <br> Adviseren over de UX-interventie(s) in de huidige en volgende iteraties.",
             "n4": "Extrapoleren van technologische en maatschappelijke trends en deze vertalen naar een advies voor het ontwerp en de strategische inzet van zinvolle en innovatieve interactieve diensten en producten. Dit advies beschrijft een visie op de gebruikerservaring en de relatie tussen gebruiker en product/dienst." 
             },
         "gebruikers_ontwerpen" : {
@@ -151,11 +151,4 @@
             "n4": "Aansturen van een complex project vanuit UX-perspectief op strategisch niveau met inachtneming van korte en lange termijn, betrekken en overtuigen van stakeholders zowel formeel als informeel." 
             }
         }
-
     }
-
-
-        
-    
-
-
