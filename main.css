@@ -56,7 +56,7 @@
 .c-card .c-header {
     border-bottom: 1px solid #707070;
     background-color: #2c3e50;
-    color:#ffffff;
+    color: #ffffff;
     padding: 5px 10px;
     text-align: center;
 }
@@ -105,11 +105,85 @@
     width: 100%;
 }
 
-@media screen and (max-width: 800px){
-    .circles2 {    
+@media screen and (max-width: 800px) {
+    .circles2 {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
 
     }
+}
+
+.c-title {
+    font-size: 75px;
+    color: #2c3e4f;
+
+}
+
+.c-img {
+    height: 125px;
+}
+
+.c-btn {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2c3e4f;
+    border-radius: 40px;
+    border: 3px solid;
+    padding: 5px 30px;
+}
+
+.c-img-hbo {
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    top: -10vh;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .c-title {
+        font-size: 45px;
+
+    }
+
+    .c-img {
+        height: 80px;
+    }
+
+    .c-btn {
+        font-size: 18px;
+    }
+
+    .c-img-hbo {
+        right: 2%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .c-title {
+        font-size: 35px;
+    }
+
+    .c-img {
+        height: 60px;
+    }
+
+    .c-btn {
+        font-size: 16px;
+    }
+
+    .c-img-hbo {
+        right: 2%;
+        top:0;
+    }
+}
+@media screen and (max-width: 325px) {
+    .c-title {
+        font-size: 25px;
+    }
+
+    .c-img {
+        height: 50px;
+    }
+
 }
