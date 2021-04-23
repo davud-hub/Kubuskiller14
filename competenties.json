@@ -1,7 +1,7 @@
 {
     "professionalskills": [
       {
-        "subTab": "Toekomstgericht organiseren",
+        "tabTitle": "Toekomstgericht-organiseren",
         "cards": [
           {
             "title": "Deelgebied",
@@ -18,7 +18,7 @@
         ]
       },
       {
-        "subTab": "Onderzoekend Probleemoplossen",
+        "subTab": "Onderzoekend-Probleemoplossen",
         "cards": [
           {
             "title": "Probleemaanpak",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "subTab": "Persoonlijk Leiderschap",
+        "subTab": "Persoonlijk-Leiderschap",
         "cards": [
           {
             "title": "Ondernemend zijn",
@@ -52,7 +52,7 @@
         ]
       },
       {
-        "subTab": "Doelgericht Interacteren",
+        "subTab": "Doelgericht-Interacteren",
         "cards": [
           {
             "title": "Partners",
