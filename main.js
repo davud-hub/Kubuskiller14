@@ -6,7 +6,7 @@ $(document).ready(function () {
                 data["professionalskills"].forEach(tabs => {
 
                     tabs.cards.forEach(card => {
-
+                        console.log("#" + tabs.tabTitle)
                         $("#" + tabs.tabTitle).append(
                             '<div class="c-card">' +
                             '<div class="c-header">' +
