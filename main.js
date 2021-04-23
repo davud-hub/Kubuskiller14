@@ -2,9 +2,13 @@ $(document).ready(function() {
     fetch("competenties.json")
         .then(response => response.json()
         .then(data => {
-            console.log(data["professionalskills"][0])
-            data["professionalskills"].forEach( skill => {
-                skill.cards.forEach( card => {
+
+            function showCards (tab, subTab) {
+
+            }
+
+            console.log(data["professionalskills"][0]["cards"])
+            data["professionalskills"][0]["cards"].forEach( card => {
                     $("#doelgericht").append(
                         '<div class="c-card">' +
                             '<div class="c-header">' +
@@ -22,7 +26,7 @@ $(document).ready(function() {
 
                 }
                 )
-            })
+            
 
         }))
     })
