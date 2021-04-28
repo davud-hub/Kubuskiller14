@@ -18,7 +18,7 @@
         ]
       },
       {
-        "subTab": "Onderzoekend-Probleemoplossen",
+        "tabTitle": "Onderzoekend-Probleemoplossen",
         "cards": [
           {
             "title": "Probleemaanpak",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "subTab": "Persoonlijk-Leiderschap",
+        "tabTitle": "Persoonlijk-Leiderschap",
         "cards": [
           {
             "title": "Ondernemend zijn",
@@ -52,7 +52,7 @@
         ]
       },
       {
-        "subTab": "Doelgericht-Interacteren",
+        "tabTitle": "Doelgericht-Interacteren",
         "cards": [
           {
             "title": "Partners",
