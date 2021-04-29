@@ -1,88 +1,118 @@
 {
     "professionalskills": [
-      {
+    {
         "tabTitle": "Toekomstgericht-organiseren",
         "cards": [
-          {
+        {
             "title": "Deelgebied",
             "text": "Werkt onder algemene richtlijnen in een omgeving waar onvoorspelbare veranderingen plaatsvinden."
-          },
-          {
+        },
+        {
             "title": "Ethiek",
             "text": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten."
-          },
-          {
+        },
+        {
             "title": "Managen",
             "text": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties."
-          }
+        }
         ]
-      },
-      {
+    },
+    {
         "tabTitle": "Onderzoekend-Probleemoplossen",
         "cards": [
-          {
+        {
             "title": "Probleemaanpak",
             "text": "Het identiﬁceren van het probleem, richting van de oplossing bepalen en een passende aa npak kiezen."
-          },
-          {
+        },
+        {
             "title": "Onderzoeken",
             "text": "Gedurende het hele oplosproces nieuwsgierig zijn en vragen stellen vanuit verschillende perspectieven, deze vragen met een passende aanpak pragmatisch, kritisch en gebaseerd op bronnen beantwoorden."
-          },
-          {
+        },
+        {
             "title": "Oplossen",
             "text": "Het zowel methodisch als creatief problemen op kunnen lossen, het vinden v an alternatieven en het kritisch de eigen en andermans redeneerketen kunnen doorlopen."
-          }
+        }
         ]
-      },
-      {
+    },
+    {
         "tabTitle": "Persoonlijk-Leiderschap",
         "cards": [
-          {
+        {
             "title": "Ondernemend zijn",
             "text": "Attent zijn, kansen zien en deze grijpen, zichzelf en anderen kunnen motiveren, zichzelf dan wel een team kunnen proﬁleren, anderen meenemen in de eigen ontwikkeling, leiderschap tonen en verantwoordelijkheid nemen."
-          },
-          {
+        },
+        {
             "title": "Persoonlijke ontwikkeling",
             "text": "Een overwogen studiekeuze maken, het eigen leervermogen versterken, een leerbehoefte bij zichzelf kunnen onderkennen en daarop passend acteren, reﬂecteren, evalueren, actief feedback vragen en geven."
-          },
-          {
+        },
+        {
             "title": "Persoonlijke Proﬁlering",
             "text": "Onderzoeken wat voor type professional men op termijn zou willen zijn, welk beroepenveld en type functies men ambieert en hoe zich daarin van anderen in de branche te onderscheiden."
-          }
+        }
         ]
-      },
-      {
+    },
+    {
         "tabTitle": "Doelgericht-Interacteren",
         "cards": [
-          {
+        {
             "title": "Partners",
             "text": "Aandacht voor de diverse groepen samenwerkingspartners zoals stakeholders, belangengroepen, eigen teamleden."
-          },
-          {
+        },
+        {
             "title": "Communiceren",
             "text": "Aandacht voor wat men wil communiceren met welke impact, de daarbij meest geschikte vorm en de daadwerkelijke uitvoering hiervan."
-          },
-          {
+        },
+        {
             "title": "Samenwerken",
             "text": "Aandacht voor de eigen rol in de context van de ICT - opdracht, taken herkennen en oppakken, anderen aanspreken, verrijking zoeken en vertrouwen opbouwen in een interdisciplinaire en interculturele context."
-          }
+        }
         ]
-      }
-    ],
-    "beheersingniveaus": {
-      "zelfstandigheid": {
-        "taakgericht": "Werkt onder algemene richtlijnen in een omgeving waar onvoorspelbare veranderingen plaatsvinden.",
-        "probleemgericht": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten.",
-        "situatiegericht": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties.",
-        "professiegericht": "Coördineert en bestuurt. Stelt kwesties aan de orde met veel interacterende factoren."
-      },
-      "complextiteit": {
-        "taakgericht": "Gestructureerd voorspelbare context, probleem afgebakend, aanpak en oplossing bekend bij opdrachtgever.",
-        "probleemgericht": "Gestructureerd - onvoorspelbare context, probleem gegeven, keuze aanpak en oplossingsruimte beperkt.",
-        "situatiegericht": "Gestructureerd – onvoorspelbare context, vage problemen, aanpak en oplossingsruimte open.",
-        "professiegericht": "Ongestructureerde multidisciplinaire en/of specialistische context."
-      }
+    }],
+
+    "beheersingniveaus": [
+    {
+        "tabTitle": "zelfstandigheid",
+        "cards": [
+        {
+            "title": "Taakgericht",
+            "text": "Werkt onder algemene richtlijnen in een omgeving waar onvoorspelbare veranderingen plaatsvinden."
+        },
+        {
+            "title": "Probleemgericht",
+            "text": "Lost zelfstandig interactieve kwesties op die voortvloeien uit projectactiviteniten."
+        },
+        {
+            "title": "Situatiegericht",
+            "text": "Werkt onafhankelijk om interactieve problemen op te lossen. Heeft een positief eff ect op de teamprestaties."
+        },
+        {
+            "title": "Professiegericht",
+            "text": "Coördineert en bestuurt. Stelt kwesties aan de orde met veel interacterende factoren."
+        }
+        ]
     },
+    {
+        "tabTitle": "complextiteit",
+        "cards": [
+        {
+            "title": "Taakgericht",
+            "text": "Gestructureerd voorspelbare context, probleem afgebakend, aanpak en oplossing bekend bij opdrachtgever."
+        },
+        {
+            "title": "Probleemgericht",
+            "text": "Gestructureerd - onvoorspelbare context, probleem gegeven, keuze aanpak en oplossingsruimte beperkt."
+        },
+        {
+            "title": "Situatiegericht",
+            "text": "Gestructureerd – onvoorspelbare context, vage problemen, aanpak en oplossingsruimte open."
+        },
+        {
+            "title": "Professiegericht",
+            "text": "Ongestructureerde multidisciplinaire en/of specialistische context."
+        }
+        ]
+    }],
+
     "beroepstaken": [
     {
         "tabTitle": "hardware-analyseren",
@@ -608,6 +638,5 @@
             "text": "Aansturen van een complex project vanuit UX-perspectief op strategisch niveau met inachtneming van korte en lange termijn, betrekken en overtuigen van stakeholders zowel formeel als informeel."
         }
         ]
-    }
-    ]
+    }]
 }
